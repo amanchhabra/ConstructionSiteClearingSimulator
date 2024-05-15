@@ -26,7 +26,7 @@ public class SimulatorEngineTest {
         when(commandLineUtility.takeInput()).thenReturn("q");
 
         //act
-        simulatorEngine.start("sitemaptest.txt");
+        simulatorEngine.start("src/test/resources/sitemaptest.txt");
 
 
         //assert
@@ -49,7 +49,7 @@ public class SimulatorEngineTest {
                 .thenReturn("a 2");
 
         //act
-        simulatorEngine.start("sitemaptest.txt");
+        simulatorEngine.start("src/test/resources/sitemaptest.txt");
 
         //assert
         verify(commandLineUtility,times(1)).printMessage(STOP_MESSAGE.getDescription());
@@ -67,7 +67,7 @@ public class SimulatorEngineTest {
                 .thenReturn("a 2");
 
         //act
-        simulatorEngine.start("sitemaptest.txt");
+        simulatorEngine.start("src/test/resources/sitemaptest.txt");
 
         //assert
         verify(commandLineUtility,times(1)).printMessage(STOP_MESSAGE.getDescription());
@@ -85,7 +85,7 @@ public class SimulatorEngineTest {
                 .thenReturn("q");
 
         //act
-        simulatorEngine.start("sitemaptest.txt");
+        simulatorEngine.start("src/test/resources/sitemaptest.txt");
 
         //assert
         verify(commandLineUtility,times(1)).printMessage(STOP_MESSAGE.getDescription());
@@ -105,7 +105,7 @@ public class SimulatorEngineTest {
                 .thenReturn("a 1");
 
         //act
-        simulatorEngine.start("sitemaptest.txt");
+        simulatorEngine.start("src/test/resources/sitemaptest.txt");
 
         //assert
         verify(commandLineUtility,times(1)).printFormattedMessage(COST_DETAILS_COMMUNICATION_OVERHEAD_TEMPLATE.getDescription(),5,5);

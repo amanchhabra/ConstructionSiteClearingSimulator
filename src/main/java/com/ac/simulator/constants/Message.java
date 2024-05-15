@@ -9,7 +9,7 @@ public enum Message {
     COMMAND_LINE_MESSAGE("(l)eft, (r)ight, (a)dvance <n>, (q)uit: "),
     STOP_MESSAGE("\nThe simulation has ended at your request. These are the commands you issued:\n\n"),
     COST_MESSAGE("\n\nThe costs for this land clearing operation were:\n\n"),
-    THANK_YOU_MESSAGE("\n\nThankyou for using the Aconex site clearing simulator."),
+    THANK_YOU_MESSAGE("\n\nThankyou for using the Aconex site clearing simulator.\n"),
     COST_DETAILS_HEADING("Item                            Quantity    Cost\n"),
     COST_DETAILS_COMMUNICATION_OVERHEAD_TEMPLATE("communication overhead          %8d    %4d\n"),
     COST_DETAILS_FUEL_USAGE_TEMPLATE("fuel usage                      %8d    %4d\n"),
