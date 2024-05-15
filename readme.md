@@ -16,7 +16,6 @@ It supports various lands as follows:
      4. Land with Reserved Tree
 
 
-[More Information...]([https://amanchhabra.github.io/ConstructionSiteClearingSimulator/](https://github.com/amanchhabra/ConstructionSiteClearingSimulator)
 
 ## Building the Application
 
